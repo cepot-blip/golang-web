@@ -1,0 +1,14 @@
+.header {
+    margin-bottom: 30px;
+}
+
+.box-with-shadow {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 2px 10px rgb(183, 182, 182);
+    margin-bottom: 30px;
+}
+
+.text{
+    color:orange;
+}

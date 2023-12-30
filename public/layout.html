@@ -1,0 +1,24 @@
+{{define "layout"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="header">
+        Main Header Diatas
+    </div>
+
+    {{ template "main" .}}
+
+    <div class="footer">
+        Footer ada dibawah
+    </div>
+    
+</body>
+</html>
+
+{{end}}
